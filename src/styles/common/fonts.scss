@@ -1,0 +1,20 @@
+// font families
+$ffSerif: 'BaskervilleLT-RegularOldFace', 'Libre Baskerville', 'Times New Roman', Times, serif;
+$ffSansSerif: Helvetica, Arial, sans-serif;
+$ffMonospace: 'SourceCodePro', 'Courier New', Courier, monospace;
+
+$ffHeading: $ffSerif;
+$ffTextBody: $ffSansSerif;
+
+
+// font sizes
+$mainFontSize: 12.5pt;
+
+
+// font weights
+$fwLight: 300;
+$fwNormal: 400;
+$fwMedium: 500;
+$fwSemiBold: 600;
+$fwBold: 700;
+$fwExtraBold: 800;

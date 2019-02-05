@@ -1,0 +1,27 @@
+@mixin buttonStyle {
+  display: inline-block;
+
+  background-color: $mainColor;
+  border: 0;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  padding: 8px 24px;
+
+  font-family: $ffSansSerif;
+  font-size: $mainFontSize;
+  font-weight: $fwSemiBold;
+  color: $white;
+
+  &:hover,
+  &:active {
+    text-decoration: none;
+    background-color: $mainColor;
+    color: $white;
+  }
+}
+
+@mixin focus {
+  border-color: $mainColor;
+  box-shadow: 0 0 0 4px $mainColor;
+  outline: 0 !important;
+}
