@@ -1,3 +1,4 @@
+import {markdown} from 'markdown';
 import signals from 'signals';
 
 
@@ -14,10 +15,8 @@ class RenderedTextService {
   }
 
   parse(value) {
-    // TODO: parse code to styled text
-    let parsed = value;
-
-    return parsed;
+    // TODO: parse databyss-specific tags
+    return markdown.toHTML(value);
   }
 }
 

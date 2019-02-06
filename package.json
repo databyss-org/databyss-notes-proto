@@ -9,6 +9,7 @@
     "dev": "webpack -d --watch --progress"
   },
   "dependencies": {
+    "markdown": "^0.5.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "signals": "^1.0.0"
