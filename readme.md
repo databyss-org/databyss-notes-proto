@@ -16,3 +16,13 @@ This is a prototype, a sketchbook of sorts, which will allow us to discover whic
 3. Open `www/index.html` in a browser
 
 4. Edit the `src` directory, reload the browser, see your changes applied.
+
+
+## References
+
+Inspiring and useful resources
+
+- <https://unified.js.org/create-an-editor.html>
+- <https://github.com/remarkjs/remark-lint>
+- <https://github.com/remarkjs/remark>
+- <https://github.com/evilstreak/markdown-js>
